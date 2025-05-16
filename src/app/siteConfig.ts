@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Solar Technologies",
-  url: "https://solar.tremor.so",
-  description: "Automation for every Farm.",
+  name: "CounterCulture",
+  url: "https://counterculture.com",
+  description: "Revolutionary C-Store Products.",
   baseLinks: {
     home: "/",
   },

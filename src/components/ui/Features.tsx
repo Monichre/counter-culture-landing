@@ -10,7 +10,7 @@ import {
   RiPlaneFill,
   RiTruckFill,
 } from "@remixicon/react"
-import { SolarMark } from "../../../public/SolarMark"
+import { CounterCultureMark } from "../../../public/CounterCultureMark"
 import { Icons } from "../Icons"
 import { Orbit } from "../Orbit"
 import ChipViz from "./ChipViz"
@@ -18,8 +18,8 @@ import ChipViz from "./ChipViz"
 export default function Features() {
   return (
     <section
-      aria-label="Solar Technologies Features for Farms"
-      id="solutions"
+      aria-label="CounterCulture Features"
+      id="products"
       className="relative mx-auto max-w-6xl scroll-my-24"
     >
       {/* Vertical Lines */}
@@ -130,25 +130,20 @@ export default function Features() {
         {/* Content */}
         <div className="col-span-2 my-auto px-2">
           <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Smart Farming Solutions
+            Innovative C-Store Products
             <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
           </h2>
           <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            A network of autonomous systems for complete farm monitoring
+            Simply, we put in the extra effort to find the most innovative products
           </p>
           <p className="mt-4 text-balance text-gray-700">
-            Deploy intelligent monitoring and automated response systems across
-            your fields, irrigation networks, and aerial operations with our
-            integrated platform.
+            We find the most thoughtful, delightful and surprising c-store products out there. 
+            Sometimes, we create them ourselves. And then we make them available to you at the best margins possible.
           </p>
         </div>
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
           <svg
             className="absolute size-full [mask-image:linear-gradient(transparent,white_10rem)]"
-            // style={{
-            //   maskImage:
-            //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
-            // }}
           >
             <defs>
               <pattern
@@ -195,7 +190,7 @@ export default function Features() {
                           <RiCircleLine className="size-3 shrink-0 text-white" />
                         </div>
                         <div className="rounded-r-full bg-white/50 py-0.5 pr-1.5 pl-1 text-xs whitespace-nowrap ring-1 ring-gray-200">
-                          Drivetrain Error
+                          Premium Product
                         </div>
                       </div>
                     </div>
@@ -219,7 +214,7 @@ export default function Features() {
                           <RiLoaderFill className="size-3 shrink-0 animate-spin text-white" />
                         </div>
                         <div className="rounded-r-full bg-white/50 py-0.5 pr-1.5 pl-1 text-xs ring-1 ring-gray-200">
-                          Charging
+                          New Arrival
                         </div>
                       </div>
                     </div>
@@ -256,24 +251,10 @@ export default function Features() {
                           <RiCheckLine className="size-3 shrink-0 text-white" />
                         </div>
                         <div className="rounded-r-full bg-white/50 py-0.5 pr-1.5 pl-1 text-xs ring-1 ring-gray-200">
-                          Farming
+                          Best Seller
                         </div>
                       </div>
                     </div>
-
-                    <div
-                      style={{
-                        animationDelay: "6s",
-                      }}
-                      className="absolute size-10 animate-[ping_7s_ease_infinite] rounded-full ring-1 ring-orange-500/50"
-                    ></div>
-                  </div>,
-                  <div
-                    key="obj5"
-                    className="relative flex items-center justify-center"
-                  >
-                    <RiPlaneFill className="z-10 size-5 rotate-90 text-gray-900" />
-                    <div className="absolute size-10 rounded-full bg-white/50 ring-1 shadow-lg ring-black/5"></div>
                     <div
                       style={{
                         animationDelay: "3s",
@@ -282,171 +263,25 @@ export default function Features() {
                     ></div>
                   </div>,
                 ]}
-              >
-                <div className="relative flex h-48 w-48 items-center justify-center">
-                  <div className="rounded-full p-1 ring-1 ring-black/10">
-                    <div className="relative z-10 flex size-20 items-center justify-center rounded-full bg-white ring-1 shadow-[inset_0px_-15px_20px_rgba(0,0,0,0.1),0_7px_10px_0_rgba(0,0,0,0.15)] ring-black/20">
-                      <SolarMark className="size-10" />
-                    </div>
-                    <div className="absolute inset-12 animate-[spin_8s_linear_infinite] rounded-full bg-linear-to-t from-transparent via-orange-400 to-transparent blur-lg" />
-                  </div>
-                </div>
-              </Orbit>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-span-2 my-auto px-2">
-          <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Precision Agriculture
-            <div className="absolute top-1 -left-[8px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
-          </h2>
-          <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            Turn every acre into a data-driven powerhouse
-          </p>
-          <p className="mt-4 text-balance text-gray-700">
-            Revolutionize your farming operation with edge-computing AI that
-            transforms raw field data into actionable insights in real-time.
-            Make informed decisions faster, reduce resource waste, and maximize
-            yields.
-          </p>
-        </div>
-        <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
-          <svg className="absolute size-full">
-            <defs>
-              <pattern
-                id="diagonal-feature-pattern"
-                patternUnits="userSpaceOnUse"
-                width="64"
-                height="64"
-              >
-                {Array.from({ length: 17 }, (_, i) => {
-                  const offset = i * 8
-                  return (
-                    <path
-                      key={i}
-                      d={`M${-106 + offset} 110L${22 + offset} -18`}
-                      className="stroke-gray-200/70"
-                      strokeWidth="1"
-                    />
-                  )
-                })}
-              </pattern>
-            </defs>
-            <rect
-              width="100%"
-              height="100%"
-              fill="url(#diagonal-feature-pattern)"
-            />
-          </svg>
-          <div className="relative h-[432px] w-[432px]">
-            <svg
-              id="grid"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              className="mask absolute size-[432px]"
-            >
-              <path
-                className="stroke-gray-300"
-                d="M48 0v432M96 0v432M144 0v432M192 0v432M240 0v432M288 0v432M336 0v432M384 0v432M0 48h432M0 96h432M0 144h432M0 192h432M0 240h432M0 288h432M0 336h432M0 384h432"
               />
-            </svg>
-
-            <div className="pointer-events-none relative h-full select-none">
-              <div className="absolute top-[192px] left-[191.8px]">
-                <div className="flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                  <SolarMark className="h-8 w-8" />
-                </div>
-              </div>
-              <div className="absolute top-[144px] left-[48px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      14°C
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute top-[48px] left-[144px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      18°C
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute top-[96px] left-[240px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      17°C
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute top-[240px] left-[385px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      14°C
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute top-[337px] left-[336px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      12°C
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute top-[288px] left-[144px]">
-                <div className="relative">
-                  <div className="absolute inset-0 size-12 animate-pulse bg-orange-200 blur-[3px]"></div>
-                  <div className="relative flex h-12 w-12 items-center justify-center bg-white ring-1 shadow-sm ring-black/15">
-                    <span className="text-sm font-medium text-gray-500">
-                      17°C
-                    </span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
         <div className="col-span-2 my-auto px-2">
           <h2 className="relative text-lg font-semibold tracking-tight text-orange-500">
-            Easy Expansion
+            Better Margins
             <div className="absolute top-1 -left-[7px] h-5 w-[3px] rounded-r-sm bg-orange-500" />
           </h2>
           <p className="mt-2 text-3xl font-semibold tracking-tighter text-balance text-gray-900 md:text-4xl">
-            Scale your smart farm with plug-and-play simplicity
+            It's not a rejection of any old way of doing business. It's just a better way.
           </p>
           <p className="mt-4 text-balance text-gray-700">
-            Add new sensors and capabilities to your farm network with zero
-            setup required. Our systems automatically connect and coordinate
-            with each other.
+            See for yourself if the results aren't radically successful. We make our products available to you at the best margins possible.
           </p>
         </div>
         <div className="relative col-span-2 flex items-center justify-center overflow-hidden">
           <svg
             className="absolute size-full [mask-image:linear-gradient(white_10rem,transparent)]"
-            // style={{
-            //   maskImage:
-            //     "linear-gradient(transparent, white 20rem, white calc(100% - 20rem), transparent)",
-            // }}
           >
             <defs>
               <pattern
